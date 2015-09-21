@@ -1,0 +1,14 @@
+{
+  "name": "rabbit-mq",
+  "version": "1.0.0",
+  "description": "rabbit-mq hello world with amqplib",
+  "main": "send.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.4.0"
+  }
+}
