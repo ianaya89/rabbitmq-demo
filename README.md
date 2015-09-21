@@ -4,13 +4,13 @@
 
 ## Prerequisites
 
-Intall **rabbitMQ** [locally](http://www.rabbitmq.com/download.html) or get some [cloud service](https://www.cloudamqp.com/).
+Install **rabbitMQ** [locally](http://www.rabbitmq.com/download.html) or get some [cloud service](https://www.cloudamqp.com/).
 
 ## Install It
 `$ npm install`
 
 ## Set up
-If you are **not running rabbitMQ locally** replace the HOST url in `config.js`
+If you are **not running rabbitMQ locally** replace the *host* url in `config.js`
 
 ## Run Sender
 `$ node send`
