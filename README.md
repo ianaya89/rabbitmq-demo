@@ -4,7 +4,10 @@
 
 ## Prerequisites
 
-Install **rabbitMQ** [locally](http://www.rabbitmq.com/download.html) or get some [cloud service](https://www.cloudamqp.com/).
+* Install **rabbitMQ** [locally](http://www.rabbitmq.com/download.html) or get some [cloud service](https://www.cloudamqp.com/).
+
+* If you are locally, start **rabbitMQ** server: `$ rabbitmq-server`
+
 
 ## Install It
 `$ npm install`

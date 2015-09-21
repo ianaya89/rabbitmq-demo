@@ -13,7 +13,7 @@ amqp.connect(config.RABBIT_HOST, function(err, conn) {
     //declare the queue to send the messages
     ch.assertQueue(q, {durable: false});
     ch.sendToQueue(q, new Buffer('Hello World!'));
-    console.log(" [x] Sent 'Hello World!'");
+    console.log(' [x] Sent "Hello World!"');
   });
 
   //close the connection
