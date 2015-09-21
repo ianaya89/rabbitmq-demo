@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
 var amqp = require('amqplib/callback_api');
+var config = require('.config');
 
-amqp.connect('amqp://localhost', function(err, conn) {
+amqp.connect(config.RABBIT_HOST, function(err, conn) {
   conn.createChannel(function(err, ch) {
     var q = 'hello';
     ch.assertQueue(q, {durable: false});
